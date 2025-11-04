@@ -1,0 +1,68 @@
+/* Base styles */
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray using HEX value */
+}
+/* Paragraph font size */
+p {
+    font-size: 18px;
+}
+
+/* Apply background image to the header element with id="header" */
+#header {
+    background-image: url('https://edube.org/uploads/media/default/0001/04/portfolio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* fallback background color */
+    background-color: rgb(220,20,60);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(34, 139, 34); /* Green using RGB value */
+}
+
+h2 {
+    color: hsl(210, 60%, 40%); /* Blue tone using HSL */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(to bottom, lightblue, white);
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    line-height: 1.6;
+    padding-left: 10px;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: #800080; /* Purple (hex) for visited links */
+}
+
+a:hover {
+    color: red;
+}
+
+img {
+    src: url('images/captura de tela(1).png');
+    width: 100%;
+    height: auto; /* preserve aspect ratio */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
